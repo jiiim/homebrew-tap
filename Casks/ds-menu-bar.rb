@@ -1,6 +1,6 @@
 cask "ds-menu-bar" do
-  version "0.0.8"
-  sha256 "decffc80cadbe568c56d132bbba0604dda5b85741e60121e7a06cd8e5e962787"
+  version "0.0.9"
+  sha256 "ea8adefb33543e976860b594caa17c50e601599cc8e7b2e52e0a3a9275d92ba6"
 
   url "https://github.com/jiiim/ds-menu-bar/releases/download/v#{version}/DS-Menu-Bar-v#{version}-arm64.dmg"
   name "DS Menu Bar"
