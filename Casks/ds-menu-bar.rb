@@ -1,6 +1,6 @@
 cask "ds-menu-bar" do
-  version "0.0.7"
-  sha256 "d5225c715c50f8e5251d655f7ed1e692f963f3fede19b4ff4fb8bbc24bc18985"
+  version "0.0.8"
+  sha256 "decffc80cadbe568c56d132bbba0604dda5b85741e60121e7a06cd8e5e962787"
 
   url "https://github.com/jiiim/ds-menu-bar/releases/download/v#{version}/DS-Menu-Bar-v#{version}-arm64.dmg"
   name "DS Menu Bar"
@@ -16,8 +16,6 @@ cask "ds-menu-bar" do
   depends_on macos: :tahoe
 
   app "DS Menu Bar.app"
-
-  uninstall quit: "com.jiiim.ds-menu-bar"
 
   zap trash: [
     "~/Library/Logs/dsmenubar",
