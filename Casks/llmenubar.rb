@@ -1,6 +1,6 @@
 cask "llmenubar" do
-  version "0.0.2"
-  sha256 "5287ab6532ee659a91398fb68e39988d1b554ad6de238c1c4c61189ecddda00b"
+  version "0.0.3"
+  sha256 "4cd346603393faf2f75d8a20a641ea4b0f75b2e03d018cb47b2937a7f2eb867e"
 
   url "https://github.com/jiiim/llmenubar/releases/download/v#{version}/LLMenuBar-v#{version}-arm64.dmg"
   name "LLMenuBar"
